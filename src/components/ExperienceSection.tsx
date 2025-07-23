@@ -1,10 +1,19 @@
 const ExperienceSection = () => {
   return <section className="w-full max-w-4xl mx-auto px-6 py-8">
-      <h2 className="text-2xl font-bold mb-6">Work Experience</h2>
+      <h2 className="text-2xl font-bold mb-6">Google AI-ML Virtual Internshipeelance Developer
+
+2025-Summer
+
+Built fully responsive, custom web applications tailored to client needs across various industries.
+Designed and developed intuitive user interfaces using React, Tailwind CSS, and modern design principles.
+Created secure RESTful APIs and backend systems using Node.js, Express, and MongoDB.
+Integrated third-party services like payment gateways, email services, and cloud storage.
+Implemented authentication systems, admin dashboards, and role-based access controls.
+Implemented JWT-based authentication and authorization for secure user sessions.</h2>
       <div className="bg-card rounded-xl p-6 border border-border">
         <div className="mb-4">
           <h3 className="text-xl font-semibold">Freelance Developer</h3>
-          <p className="text-muted-foreground">2025-Summer</p>
+          <p className="text-muted-foreground">2024 - Present</p>
         </div>
         <ul className="space-y-3 text-muted-foreground">
           <li className="flex items-start gap-3">

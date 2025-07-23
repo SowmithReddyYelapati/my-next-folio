@@ -5,7 +5,7 @@ const Header = () => {
   return <header className="w-full max-w-4xl mx-auto px-6 pt-12 pb-8">
       <div className="flex flex-col md:flex-row items-center gap-8">
         <div className="relative">
-          <img src={profilePhoto} alt="Profile" className="w-32 h-32 md:w-40 md:h-40 rounded-2xl object-cover border-2 border-border" />
+          <img src="/lovable-uploads/735224ee-9906-4419-b68e-62796be83544.png" alt="Profile" className="w-32 h-32 md:w-40 md:h-40 rounded-2xl object-cover border-2 border-border" />
         </div>
         
         <div className="flex-1 text-center md:text-left">

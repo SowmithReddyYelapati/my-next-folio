@@ -5,24 +5,24 @@ import { ExternalLink } from "lucide-react";
 const CertificationsSection = () => {
   const certifications = [
     {
-      title: "AWS Cloud Practitioner",
-      category: "Cloud Computing",
-      issuer: "Amazon Web Services",
-      description: "Comprehensive understanding of AWS Cloud concepts, services, security, architecture, pricing, and support.",
+      title: "Linguaskill English Certification",
+      category: "English Language Proficiency",
+      issuer: "Cambridge University Press & Assessment",
+      description: "Demonstrated strong command of the English language across all four skills: Listening (B1), Reading (C1), Speaking (B2), and Writing (B2), achieving an overall CEFR level of B2. Proficient in understanding complex texts, expressing ideas fluently, and writing clear, structured content suitable for academic and professional settings.",
       verifyLink: "#"
     },
     {
-      title: "MongoDB Associate Developer",
-      category: "Database",
-      issuer: "MongoDB",
-      description: "Advanced proficiency in MongoDB, NoSQL, and modern database development practices.",
+      title: "Deloitte Technology Job Simulation",
+      category: "Coding & Development",
+      issuer: "Deloitte via Forage",
+      description: "Completed a virtual job simulation where I worked on practical tasks involving software development and coding, gaining hands-on experience aligned with real-world expectations at Deloitte. Developed skills in analyzing requirements, writing clean code, and understanding technology consulting practices.",
       verifyLink: "#"
     },
     {
-      title: "React Developer Certification",
-      category: "Frontend",
-      issuer: "Meta",
-      description: "Advanced proficiency in React, component architecture, and modern frontend development practices.",
+      title: "HackerRank Skill Certifications",
+      category: "Programming Proficiency",
+      issuer: "HackerRank",
+      description: "Earned certifications by demonstrating strong problem-solving and coding abilities in key areas such as Java, Problem Solving, and Data Structures. These assessments reflect industry-level coding standards and validate practical proficiency through timed, hands-on challenges.",
       verifyLink: "#"
     }
   ];

@@ -5,52 +5,28 @@ import { ExternalLink, Github } from "lucide-react";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "📰 NewsHub – News Aggregation Platform",
       category: "fullstack",
-      description: "A fully responsive e-commerce platform with user authentication, shopping cart, payment integration, and admin dashboard for managing products and orders.",
-      technologies: ["React", "Node.js", "Express", "MongoDB"],
+      description: "A dynamic news aggregator that fetches trending headlines from multiple reliable sources using cron jobs. The platform supports smooth navigation, responsive UI, and backend scalability to deliver a consistent news experience.",
+      technologies: ["React", "Spring Boot", "JavaScript", "HTML/CSS", "Cron Jobs"],
       githubLink: "#",
       liveDemo: "#"
     },
     {
-      title: "Task Management App",
-      category: "fullstack", 
-      description: "A collaborative task management application with real-time updates, team collaboration features, and project tracking capabilities.",
-      technologies: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind CSS"],
+      title: "🧾 Smart Billing System with GUI and Real-Time Invoice Generation",
+      category: "desktop",
+      description: "The Billing System is a desktop-based application built using Java and PostgreSQL, designed to streamline invoice generation and sales tracking. I developed a user-friendly GUI using Eclipse IDE that allows dynamic product entry, real-time pricing updates, and instant receipt generation. The system ensures accurate billing with automated calculations and database integration for persistent data storage.",
+      technologies: ["Java", "Swing", "PostgreSQL", "Eclipse IDE"],
       githubLink: "#",
       liveDemo: "#"
     },
     {
-      title: "Weather Dashboard",
-      category: "frontend",
-      description: "A modern weather dashboard providing real-time weather data, forecasts, and interactive maps with a clean, responsive design.",
-      technologies: ["React", "CSS", "Weather API"],
+      title: "🎮 Hangman Game",
+      category: "console",
+      description: "A classic word guessing game developed in C with a terminal-based interface. Implements logic for guessing, tracking lives, and revealing word progress, emphasizing fundamental C concepts.",
+      technologies: ["C Language"],
       githubLink: "#",
-      liveDemo: "#"
-    },
-    {
-      title: "Social Media Platform",
-      category: "fullstack",
-      description: "A social media platform where users can share posts, connect with friends, and engage through comments and likes with real-time chat functionality.",
-      technologies: ["React", "Node.js", "Express", "MongoDB"],
-      githubLink: "#",
-      liveDemo: "#"
-    },
-    {
-      title: "Portfolio Website",
-      category: "frontend",
-      description: "A responsive portfolio website showcasing projects and skills with modern design principles and smooth animations.",
-      technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
-      githubLink: "#",
-      liveDemo: "#"
-    },
-    {
-      title: "Banking Application",
-      category: "fullstack",
-      description: "A secure banking application with account management, transaction history, and modern financial services integration.",
-      technologies: ["Next.js", "TypeScript", "Appwrite"],
-      githubLink: "#",
-      liveDemo: "#"
+      liveDemo: null
     }
   ];
 
@@ -65,7 +41,11 @@ const ProjectsSection = () => {
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                 <Badge 
                   variant="secondary" 
-                  className={project.category === 'fullstack' ? 'bg-portfolio-orange/20 text-portfolio-orange' : 'bg-portfolio-blue/20 text-portfolio-blue'}
+                  className={
+                    project.category === 'fullstack' ? 'bg-portfolio-orange/20 text-portfolio-orange' : 
+                    project.category === 'desktop' ? 'bg-portfolio-blue/20 text-portfolio-blue' :
+                    'bg-muted text-muted-foreground'
+                  }
                 >
                   {project.category}
                 </Badge>
